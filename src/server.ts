@@ -111,7 +111,10 @@ connection.onDidChangeConfiguration((_didChangeConfigurationParams) => {
   sva.rootpath = initial_param.wsroot;
   sva.setIncPath(serverconf.includePath);
 
-  let filelists = serverconf.initialFileLists;
+  let filelists: string[] = serverconf.initialFileLists;
+  if (filelists.length === 0) {
+    filelists.push('.filelist');
+  }
 
   serverlog('File lists:');
   serverlog(filelists);

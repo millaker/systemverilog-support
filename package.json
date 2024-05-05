@@ -37,7 +37,7 @@
               "scope": "window",
               "type": "array",
               "default": [],
-              "description": "File lists to analyze when the extension starts."
+              "description": "File lists to analyze when the extension starts.\nIf nothing is specified, the server will look for `.file_list` in the current workspace."
           },
           "svlog.server.includePath": {
               "scope": "window",
@@ -49,7 +49,7 @@
               "scope": "window",
               "type": "array",
               "default": [],
-              "description": "Include path lists."
+              "description": "Pre defined values"
           }
       }
   },
