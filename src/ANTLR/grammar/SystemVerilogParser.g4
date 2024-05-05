@@ -1122,7 +1122,7 @@ subroutine_call_statement:
 
 
 // =============================================================================
-// 6.11 Clocking block
+// 6.10 Assertion statements
 // =============================================================================
 assertion_item: concurrent_assertion_item | deferred_immediate_assertion_item;
 
