@@ -1,13 +1,13 @@
 {
-  "name": "systemverilog-improved",
-  "displayName": "systemverilog-improved",
+  "name": "systemverilog-support",
+  "displayName": "systemverilog-support",
   "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
-    "Other"
+    "Language Packs"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -68,7 +68,11 @@
               "svh",
               "sva"
           ],
-          "configuration": "./language-configuration.json"
+          "configuration": "./language-configuration.json",
+          "icon": {
+            "dark": "./misc/dark.png",
+            "light": "./misc/light.png"
+          }
       }
   ],
   "grammars": [
