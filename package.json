@@ -71,6 +71,20 @@
           "configuration": "./language-configuration.json"
       }
   ],
+  "grammars": [
+    {
+      "language": "sv",
+      "scopeName": "source.sv",
+      "path": "./syntaxes/sv.tmLanguage.json"
+    }
+  ],
+  "themes": [
+    {
+      "label": "SystemVerilog",
+      "uiTheme": "vs-dark",
+      "path": "./themes/SystemVerilog-color-theme.json"
+    }
+  ],
   "commands": [
       {
           "command": "sv.instantiateModule",
